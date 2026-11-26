@@ -29,14 +29,14 @@ A simulated crypto exchange. No real money, no external APIs. The admin sets coi
 
 ## Planned features (names only, text goes into description.md)
 
-**Admin**: add coin, delist coin, list coins, search coins, set price, view price history.
+**Admin**: add network, list networks, add coin, delist coin, list and search coins, set price.
 
 **User**: register, deposit EUR, withdraw EUR, buy coin, sell coin, view portfolio, view transaction history.
 
-**Analyst** (3 features with real SQL, top-N / grouping / time windows). Candidates:
-- Top coins by trading volume
-- Most active hours
-- Biggest profit and loss per user
+**Analyst** (3 features with real SQL, top-N / grouping / time windows):
+- Top coins (or networks) by trading volume
+- Top gainers and losers (price change in a period)
+- Biggest profits and losses
 
 ## Who owns what
 
